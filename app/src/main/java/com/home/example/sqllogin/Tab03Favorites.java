@@ -17,4 +17,5 @@ public class Tab03Favorites extends Fragment {
         View view= inflater.inflate(R.layout.tab03_favorites, container, false);
         return view;
     }
+
 }
