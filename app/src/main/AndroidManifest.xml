@@ -18,12 +18,12 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity
-            android:name=".Tab"
-            android:label="@string/title_activity_tab"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Menu"
             android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Principal"
+            android:label="@string/title_activity_principal"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

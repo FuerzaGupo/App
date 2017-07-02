@@ -45,7 +45,7 @@ public class Menu extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nuevo = new Intent(Menu.this,Tab.class);
+                Intent nuevo = new Intent(Menu.this,Principal.class);
                 startActivity(nuevo);
             }
         });
