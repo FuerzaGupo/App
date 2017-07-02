@@ -34,8 +34,17 @@
     <string name="title_activity_principal">SOLESMAP</string>
     <string name="title_activity_secundario">Control de Ingresos Y Egresos</string>
 
+    <string name="tesorero">Modo tesorero</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tesorero">Tesorero</string>
+
+    <string name="title_tesorero">Modo Tesorero</string>
+    <string name="nombre_organizacion">Nombre Organizacion</string>
+    <string name="ingreso">Fecha de ingreso</string>
+    <string name="salida">Fecha de salida</string>
+    <string name="registrar">registrar</string>
 
 
 </resources>
