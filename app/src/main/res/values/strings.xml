@@ -32,6 +32,7 @@
     <string name="foto">foto</string>
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_principal">SOLESMAP</string>
+    <string name="title_activity_secundario">Control de Ingresos Y Egresos</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
