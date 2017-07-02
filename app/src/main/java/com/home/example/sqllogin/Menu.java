@@ -36,6 +36,7 @@ public class Menu extends AppCompatActivity {
                 String miNombre = null;
                 miNombre = miCaja.getText().toString();
                 miSalida.setText(miNombre);
+
             }
         });
 
