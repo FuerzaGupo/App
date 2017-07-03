@@ -13,9 +13,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Principal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    TextView recibir;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,10 @@ public class Principal extends AppCompatActivity
 
 
 
+        recibir = (TextView)findViewById(R.id.numero);
+        Bundle ggg = getIntent().getExtras();
+        String dato = ggg.getString("Info").toString();
+        recibir.setText(dato);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
